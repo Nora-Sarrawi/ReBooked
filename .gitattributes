@@ -1,7 +1,18 @@
+# Vendor Flutter native build files
+ios/** linguist-vendored
+android/** linguist-vendored
+windows/** linguist-vendored
+linux/** linguist-vendored
+macos/** linguist-vendored
+build/** linguist-vendored
+
+# Generated files
+*.g.dart linguist-generated
+pubspec.lock linguist-generated
+
+# Override C/CMake/C++ detection
+*.c linguist-vendored
+*.cmake linguist-vendored
 *.cpp linguist-vendored
 *.h linguist-vendored
-ios/* linguist-vendored
-android/* linguist-vendored
-windows/* linguist-vendored
-linux/* linguist-vendored
-macos/* linguist-vendored
+CMakeLists.txt linguist-vendored
